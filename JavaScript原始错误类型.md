@@ -31,8 +31,7 @@ new Array(-1)
 // RangeError: toExponential() argument must be between 0 and 20
 ```
 
-## (4) TypeError 变量或参数不是预期类型时发生的错误.比如,对字符串、布尔值、
-数值等原始类型的值使用new命令,就会抛出这种错误,因为new命令的参数应该是一个构造函数.
+## (4) TypeError 变量或参数不是预期类型时发生的错误.比如,对字符串、布尔值、数值等原始类型的值使用new命令,就会抛出这种错误,因为new命令的参数应该是一个构造函数.
 
 ```
 new 123
@@ -43,8 +42,7 @@ obj.unknownMethod()
 // TypeError: obj.unknownMethod is not a function
 ```
 
-## (5) URIError URI相关函数的参数不正确时抛出的错误,主要涉及encodeURI()、 decodeURI()、
-encodeURIComponent()、decodeURIComponent()、escape()和unescape()六个函数.
+## (5) URIError URI相关函数的参数不正确时抛出的错误,主要涉及encodeURI()、 decodeURI()、encodeURIComponent()、decodeURIComponent()、escape()和unescape()六个函数.
 
 ```
 decodeURI('%2')
